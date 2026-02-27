@@ -10,10 +10,10 @@ x(1..dim).
 y(1..dim).
 v(1..dim).
 
-% cell(1,2,2).
-% cell(2,4,4).
-% cell(3,1,2).
-% cell(4,3,1).
+% cell(1,1,3).
+% cell(1,3,4).
+% cell(4,2,2).
+% cell(4,4,3).
 
 % assign a value V for every combo of X and Y
 1 { cell(X,Y,V) : v(V) } 1 :- x(X), y(Y).
